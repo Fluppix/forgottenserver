@@ -78,6 +78,25 @@ local potions = {
 	[8704] = { -- small health potion
 		healthToAdd = { min = 60, max = 90},
 		emptyFlask = 7636
+	},
+	[26029] = { -- ultimate mana potion.
+		vocations = {1, 2, 5, 6},
+		minLevel = 130,
+		manaToAdd = { min = 425, max = 575},
+		emptyFlask = 7635
+	},
+	[26030] = { -- ultimate spirit potion
+		vocations = {3, 7},
+		minLevel = 130,
+		healthToAdd = { min = 420, max = 580},
+		manaToAdd = { min = 150, max = 250},
+		emptyFlask = 7635
+	},
+	[26031] = { -- supreme health potion
+		vocations = {4, 8},
+		minLevel = 200,
+		healthToAdd = { min = 875, max = 1125},
+		emptyFlask = 7635
 	}
 }
 --[[ available custom methods!
