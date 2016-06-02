@@ -200,6 +200,9 @@
 	<action itemid="8473" script="other/potions.lua" />
 	<action itemid="8474" script="other/potions.lua" />
 	<action itemid="8704" script="other/potions.lua" />
+	<action itemid="26029" script="other/potions.lua" />
+	<action itemid="26030" script="other/potions.lua" />
+	<action itemid="26031" script="other/potions.lua" />
 	<action itemid="2692" script="other/createbread.lua" />
 	<action itemid="2694" script="other/createbread.lua" />
 	<action fromid="6436" toid="6447" script="other/windows.lua" />
